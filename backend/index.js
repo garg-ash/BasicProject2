@@ -72,7 +72,7 @@ app.post("/getdata", async (req, res) => {
 
     await dataToSave.save()
     res.json("Data Submitted")
-});
+}); 
 
 app.get("/getAllData", async(req, res)=>{
     try {
